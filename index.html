@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hernan Scioscia Proyecto Final</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./Css/styles.css">
+    <script defer src="./Js/stock.js"></script>
+    <script defer src="./Js/modal.js"></script>
+    <script defer src="./Js/app.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="titulo" class="titulo">Carrito de compras</h1>
+        <button id="button-cart"><i class="fas fa-shopping-cart"></i><span id="contadorcart">0</span></button>
+    </header>
+
+    <main id="container-products">
+
+    </main>
+
+    <div class="modal-container">
+        <div class="modal-cart">
+            <h3>Tu Carrito</h3>
+            <button id="closeCart"><i class="fas fa-times-circle"></i></button>
+            <div id="cart-container">
+            </div>
+            <p class="precioproduct">Precio total: $<span id="totalPrice">0</span></p>
+            <button id="vaciar-cart" class="button-agregar">Vaciar Carrito</button>
+            <button id="comprar-cart" class="button-comprar">Comprar</button>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+<footer class="foot">
+    <p">Carrito de compras - Hernan Scioscia</p>
+</footer>
+</html>
